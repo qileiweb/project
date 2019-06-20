@@ -1,0 +1,24 @@
+.width-w{width: 1349px;}
+@media screen and (min-width: 992px){
+    .my_header{height:7rem;width: 100%;}
+    .my_footer{height:50rem;width: 100%;}
+}
+@media screen  and (max-width: 991px){
+    .my_header{height:12rem;width: 100%;}
+    .my_footer{height:50rem;width: 100%;}
+}
+.font-s{font-size: 14px;}
+.text-d{
+    text-decoration: none !important;
+}
+.breadcrumb-item>a:hover{
+    color: #ff0000 !important;
+}
+.submit{
+    /*background: url("../../img/body-3/page_01.png")*/
+    /*no-repeat 50% 48%;*/
+    cursor: pointer;
+}
+.a-color:hover{
+    color: #ff0000 !important;
+}

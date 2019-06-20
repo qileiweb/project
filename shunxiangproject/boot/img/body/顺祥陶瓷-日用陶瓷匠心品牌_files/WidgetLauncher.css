@@ -1,0 +1,123 @@
+﻿/* Launcher Styles */
+#MicrosoftTranslatorWidget
+{
+    font-family: "Segoe UI" , Frutiger, "Frutiger Linotype" , "Dejavu Sans" , "Helvetica Neue" , Arial, sans-serif;
+    font-size: 8px;
+    height: 53px;
+    display: inline-block !important;
+}
+#MicrosoftTranslatorWidget *
+{
+	background-attachment: scroll;
+	background-color: Transparent;
+	background-image: none;
+	clip: auto;
+	color: inherit;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	margin: 0;
+	outline-style: none;
+	overflow: visible;
+    padding: 0;
+	position: static;
+	vertical-align: top;
+	visibility: visible;
+	word-spacing: normal;
+	font-family: "Segoe UI" , Frutiger, "Frutiger Linotype" , "Dejavu Sans" , "Helvetica Neue" , Arial, sans-serif;
+    font-size: inherit;
+    text-transform: none;
+    text-decoration: none;
+    border: 0;
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    float: none;
+    max-width: none;
+}
+#MicrosoftTranslatorWidget a,#MicrosoftTranslatorWidget img,#MicrosoftTranslatorWidget span {
+    display: inline;
+}
+#MicrosoftTranslatorWidget div {
+    display: block;
+}
+#WidgetLauncher
+{
+    margin: 5px;
+    width: 120px;
+    height: 44px;
+    display: block !important;
+}
+#LauncherTranslatePhrase
+{
+    text-align: center;
+    cursor: pointer;
+    padding: 2px 0 2px 0;
+    font-family:"Segoe UI";
+    
+}
+.Dark #LauncherTranslatePhrase
+{
+    border: 1px #111111 solid;
+    background-color:#333333;
+    
+}
+.Light #LauncherTranslatePhrase
+{
+    border: 1px #FFFFFF solid;
+}
+#TranslateSpan
+{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+#LauncherTranslatePhrase:hover
+{
+    background-color: #ffa615 !important;
+    border: 1px #222222 solid;
+    
+}
+.WidgetDisabled  {
+   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+   filter: alpha(opacity=30);
+   -moz-opacity:0.30;
+   -khtml-opacity: 0.30;
+   opacity: 0.30;
+}
+#LauncherLogo
+{
+    height: 15px;
+    padding-top: 3px;
+    background-color: transparent;
+} 
+
+.WithPhraseAfter {
+    text-align: right;
+}
+#LauncherWithSpan
+{
+    font-size: 9px;
+    vertical-align: top;
+    line-height: 13px;
+}
+.Dark #LauncherWithSpan
+{
+    color: #444444;
+}
+.Light #LauncherWithSpan
+{
+    color: #FFFFFF;
+}
+#LauncherLogoLink
+{
+    display: inline-block !important;
+}
+#LauncherLogoImage
+{
+    height: 14px;
+    width:37px;
+    border: 0;
+    vertical-align: top;
+}

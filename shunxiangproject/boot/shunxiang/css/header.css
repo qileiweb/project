@@ -1,0 +1,11 @@
+.span_p{
+    border-left: 1px solid #ff0000;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 14px ;
+    color: #333333;
+}
+.wdith-w{width:1334px;}
+.navbar-nav .nav-link:hover{
+    color: #f00000 !important;
+}
